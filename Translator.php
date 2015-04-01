@@ -1,10 +1,11 @@
 <?php
 /**
- * Author: Sabino Papagna
- * Date: 30/03/2015
- * 
- * Requires: Spyc.php (https://github.com/mustangostang/spyc)
- *
+ * @version 0.1
+ * @author Sabino Papagna <sabino84@gmail.com>
+ * @link https://github.com/bagbyte/translator-php
+ * @copyright Copyright 2015 Sabino Papagna
+ * @license GNU General Public License
+ * @package Translator-PHP
  */
 class Translator {
   const KEY_DELIMITER               = '.';
