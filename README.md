@@ -13,11 +13,13 @@ It requires Spyc.php, which is available in the package. For the latest source c
 In this guide we will refer to the current folder structure:
  
  ```
-/
+/project_folder
 ¦   index.php
 ¦   init.php
 ¦   Translator.php
-¦   Spyc.php 
+¦
++---lib
+¦   ¦    Spyc.php 
 ¦
 +---translations
     ¦
@@ -45,7 +47,7 @@ header:
 Load the classes:
 ```
 <?php
-  require_once('Spyc.php');
+  require_once('lib/Spyc.php');
   require_once('Translator.php');
 ?> 
 ```
